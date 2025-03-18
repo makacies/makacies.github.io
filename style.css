@@ -12,13 +12,13 @@ body {
   justify-content: center;
   align-items: start;
   /* width: 100vw;
-  height: 100vh; */
-  /* overflow: hidden; */
+  height: 100vh;
+  overflow: hidden; */
 }
 
 #image-container img {
-  width: 150px;
-  height: 220px;
+  width: 120px;
+  height: 180px;
   object-fit: cover;
-  margin: 2px;
+  margin: -10px;
 }

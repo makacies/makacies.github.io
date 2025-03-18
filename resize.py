@@ -15,7 +15,7 @@ def resize_image(input_folder, output_folder, target_width):
             aspect_ratio = image.height / image.width
             target_height = int(target_width * aspect_ratio)
 
-            resized_image = image.resize((target_width, target_height), Image.Resampling.NEAREST)
+            resized_image = image.resize((target_width, target_height), Image.Resampling.LANCZOS)
             resized_image.save(output_path)
             print(f"Resized and saved: {output_path}")
 
