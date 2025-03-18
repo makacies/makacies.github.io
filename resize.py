@@ -6,9 +6,10 @@ def resize_image(input_folder, output_folder, target_width):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    for filename in os.listdir(input_folder):
+    for index, filename in enumerate(os.listdir(input_folder)):
         input_path = os.path.join(input_folder, filename)
-        output_path = os.path.join(output_folder, filename)
+        output_filename = str(index) + ".png"
+        output_path = os.path.join(output_folder, output_filename)
 
         with Image.open(input_path) as image:
             aspect_ratio = image.height / image.width
