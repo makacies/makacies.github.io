@@ -12,6 +12,8 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
+  left: -50px;
+  right: -50px;
 }
 
 #image-container img {

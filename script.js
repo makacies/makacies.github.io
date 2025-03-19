@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
     container.innerHTML = "";
 
     // Get viewport dimensions with extra padding to ensure edge coverage
-    const viewportWidth = window.innerWidth + 120;
-    const viewportHeight = window.innerHeight + 180;
+    const viewportWidth = window.innerWidth + 100;
+    const viewportHeight = window.innerHeight + 60;
 
     // Image dimensions with margin
     const imageWidth = 120;
@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Position container to allow overflow
     container.style.position = "absolute";
-    container.style.left = "-60px";
-    container.style.right = "-60px";
-    container.style.top = "-90px";
-    container.style.bottom = "-90px";
+    container.style.left = "-50px";
+    container.style.right = "-50px";
+    container.style.top = "-30px";
+    container.style.bottom = "-30px";
 
     for (let i = 0; i <= totalImagesNeeded; i++) {
       const img = document.createElement("img");
