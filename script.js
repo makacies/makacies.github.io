@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("image-container");
   const coversFolder = "covers";
-  const coversCount = 34;
+  const coversCount = 35;
 
   function debounce(func, wait) {
     let timeout;
