@@ -41,7 +41,8 @@ body {
 
 .notepad {
   position: relative;
-  width: 500px;
+  width: 40%;
+  min-width: 500px;
   height: 100%;
   background: rgba(255, 228, 163);
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
